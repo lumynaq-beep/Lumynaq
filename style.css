@@ -2249,4 +2249,1891 @@ ol {
         width: 100%;
 
         max-width: 100%;
+       font-size: .96rem;
+
+        line-height: 1.8;
+    }
+
+    .guide-line {
+        margin:
+            24px 0;
+    }
+
+
+    /* -------------------------
+       ABOUT
+    ------------------------- */
+
+    .about-section {
+        padding:
+            80px 0;
+    }
+
+    .about-grid {
+        width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 42px;
+    }
+
+    .about-grid > * {
+        width: 100%;
+
+        max-width: 100%;
+
+        min-width: 0;
+    }
+
+    .about-copy {
+        width: 100%;
+
+        font-size: .96rem;
+
+        line-height: 1.8;
+    }
+
+
+    /* -------------------------
+       EXPLORE
+    ------------------------- */
+
+    .explore-section {
+        padding:
+            80px 0;
+    }
+
+    .explore-grid {
+        width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 42px;
+    }
+
+    .explore-grid > * {
+        width: 100%;
+
+        max-width: 100%;
+
+        min-width: 0;
+    }
+
+    .explore-title {
+        width: 100%;
+
+        font-size:
+            clamp(
+                2.8rem,
+                14vw,
+                4.4rem
+            );
+    }
+
+    .explore-copy {
+        width: 100%;
+
+        font-size: .98rem;
+
+        line-height: 1.8;
+    }
+
+
+    /* -------------------------
+       CONTACT
+    ------------------------- */
+
+    .contact-section {
+        padding:
+            80px 0;
+    }
+
+    .contact-box {
+        width: 100%;
+
+        max-width: 100%;
+    }
+
+    .contact-box p {
+        width: 100%;
+
+        max-width: 100%;
+
+        margin-top: 24px;
+
+        font-size: .95rem;
+
+        line-height: 1.75;
+    }
+
+    .contact-actions {
+        width: 100%;
+
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .contact-actions a,
+    .contact-actions button {
+        width: 100%;
+    }
+
+
+    /* -------------------------
+       FOOTER
+    ------------------------- */
+
+    .site-footer {
+        padding:
+            55px 0
+            28px;
+    }
+
+    .footer-grid {
+        width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .footer-grid > * {
+        width: 100%;
+
+        min-width: 0;
+    }
+
+    .footer-description {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 8px;
+
+        margin-top: 40px;
+    }
+}
+
+
+/* =========================================================
+   25. SMALL PHONES
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .container {
+        width:
+            calc(100% - 24px);
+    }
+
+    .navbar {
+        min-height: 62px;
+    }
+
+    .brand-mark,
+    .brand-mark svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .brand-name {
+        font-size: 1rem;
+    }
+
+    .menu-toggle {
+        width: 42px;
+        height: 42px;
+    }
+
+
+    /* Hero */
+
+    .hero-grid {
+        gap: 40px;
+
+        padding:
+            52px 0
+            60px;
+    }
+
+    .hero h1 {
+        font-size:
+            clamp(
+                2.85rem,
+                15.5vw,
+                4.3rem
+            );
+    }
+
+    .hero-description {
+        font-size: .92rem;
+    }
+
+
+    /* Trust */
+
+    .hero-trust {
+        gap: 16px;
+    }
+
+    .trust-item strong {
+        font-size: .62rem;
+    }
+
+    .trust-item span {
+        font-size: .74rem;
+    }
+
+
+    /* Visual */
+
+    .hero-visual {
+        min-height: 360px;
+    }
+
+    .main-card {
+        width:
+            min(
+                285px,
+                calc(100vw - 48px)
+            );
+
+        height: 350px;
+
+        padding: 23px;
+    }
+
+    .floating-card {
+        max-width: 125px;
+
+        padding:
+            10px 12px;
+    }
+
+    .floating-card span {
+        font-size: .58rem;
+    }
+
+    .floating-card p {
+        font-size: .72rem;
+    }
+
+    .floating-one {
+        left: -2px;
+        top: 35px;
+    }
+
+    .floating-two {
+        right: -2px;
+        bottom: 18px;
+    }
+
+
+    /* Sections */
+
+    .content-section,
+    .about-section,
+    .explore-section,
+    .contact-section {
+        padding:
+            70px 0;
+    }
+
+    .section-heading h2,
+    .about-grid h2,
+    .dark-section h2,
+    .contact-box h2 {
+        font-size:
+            clamp(
+                2.55rem,
+                13.8vw,
+                4rem
+            );
+    }
+
+    .empty-grid {
+        margin-top: 36px;
+    }
+
+    .empty-card {
+        min-height: 205px;
+
+        padding: 22px;
+    }
+
+    .dark-section {
+        padding:
+            72px 0
+            110px;
+    }
+
+    .dark-section::after {
+        height: 110px;
+    }
+}
+
+
+/* =========================================================
+   26. VERY SMALL PHONES
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .container {
+        width:
+            calc(100% - 20px);
+    }
+
+    .brand-name {
+        font-size: .94rem;
+    }
+
+    .hero h1 {
+        font-size:
+            2.65rem;
+    }
+
+    .hero-trust {
+        grid-template-columns: 1fr;
+    }
+
+    .main-card {
+        width: 270px;
+    }
+
+    .floating-one {
+        left: -4px;
+    }
+
+    .floating-two {
+        right: -4px;
+    }
+}
+
+
+/* =========================================================
+   27. UNIVERSAL OVERFLOW PROTECTION
+========================================================= */
+
+.hero,
+.content-section,
+.dark-section,
+.about-section,
+.explore-section,
+.contact-section,
+.site-footer {
+    max-width: 100vw;
+}
+
+.hero-grid,
+.section-heading,
+.empty-grid,
+.guide-layout,
+.about-grid,
+.explore-grid,
+.footer-grid {
+    max-width: 100%;
+}
+
+.hero-grid > *,
+.section-heading > *,
+.empty-grid > *,
+.guide-layout > *,
+.about-grid > *,
+.explore-grid > *,
+.footer-grid > * {
+    min-width: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+    overflow-wrap: break-word;
+}
+
+
+/* =========================================================
+   28. ACCESSIBILITY
+========================================================= */
+
+:focus-visible {
+    outline:
+        3px solid
+        rgba(24, 182, 217, .45);
+
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+
+        animation-duration:
+            .01ms !important;
+
+        animation-iteration-count:
+            1 !important;
+
+        transition-duration:
+            .01ms !important;
+    }
+  }
   
+  /* =========================================================
+   PRODUCT CARD
+   ADD THIS AT THE VERY END OF style.css
+========================================================= */
+
+.product-section {
+    width: 100%;
+    margin-top: 65px;
+}
+
+.product-section-heading {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .72fr);
+
+    gap: 60px;
+
+    align-items: end;
+
+    margin-bottom: 35px;
+}
+
+.product-section-heading > * {
+    min-width: 0;
+}
+
+.product-section-heading h3 {
+    width: 100%;
+
+    font-family:
+        "Space Grotesk",
+        Inter,
+        sans-serif;
+
+    font-size:
+        clamp(2.8rem, 5vw, 5rem);
+
+    font-weight: 750;
+
+    line-height: .94;
+
+    letter-spacing: -.075em;
+
+    color: var(--black);
+}
+
+.product-section-heading h3 span {
+    color: #777777;
+}
+
+.product-section-heading p {
+    width: 100%;
+
+    color: var(--text-soft);
+
+    font-size: .95rem;
+
+    line-height: 1.85;
+}
+
+
+/* =========================================================
+   PRODUCT CARD
+========================================================= */
+
+.product-card {
+    width: 100%;
+    min-width: 0;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, 1fr);
+
+    overflow: hidden;
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        var(--radius-xl);
+
+    background:
+        var(--white);
+
+    box-shadow:
+        var(--shadow-sm);
+
+    transition:
+        transform .35s var(--ease),
+        box-shadow .35s var(--ease),
+        border-color .35s ease;
+}
+
+.product-card:hover {
+    transform:
+        translateY(-6px);
+
+    border-color:
+        rgba(244, 185, 66, .55);
+
+    box-shadow:
+        var(--shadow-md);
+}
+
+
+/* =========================================================
+   PRODUCT IMAGE AREA
+========================================================= */
+
+.product-image-wrap {
+    position: relative;
+
+    width: 100%;
+    min-width: 0;
+    min-height: 420px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 35px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            145deg,
+            #f0f3f0,
+            #ffffff
+        );
+}
+
+.product-image-wrap::before {
+    content: "";
+
+    position: absolute;
+
+    width: 270px;
+    height: 270px;
+
+    top: -100px;
+    right: -80px;
+
+    border-radius: 50%;
+
+    background:
+        var(--gold-light);
+
+    pointer-events: none;
+}
+
+.product-image {
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+    max-width: 420px;
+
+    height: 350px;
+
+    object-fit: contain;
+
+    border-radius: 20px;
+
+    transition:
+        transform .45s var(--ease);
+}
+
+.product-card:hover .product-image {
+    transform:
+        scale(1.04);
+}
+
+
+/* =========================================================
+   DISCOUNT
+========================================================= */
+
+.product-discount {
+    position: absolute;
+
+    top: 24px;
+    left: 24px;
+
+    z-index: 5;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 34px;
+
+    padding:
+        0 13px;
+
+    border-radius:
+        var(--radius-pill);
+
+    background:
+        var(--gold);
+
+    color:
+        var(--black);
+
+    font-size: .7rem;
+
+    font-weight: 800;
+
+    letter-spacing: .04em;
+}
+
+
+/* =========================================================
+   PRODUCT DETAILS
+========================================================= */
+
+.product-details {
+    min-width: 0;
+
+    padding: 42px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.product-category {
+    color:
+        var(--text-muted);
+
+    font-size: .68rem;
+
+    font-weight: 800;
+
+    letter-spacing: .16em;
+
+    text-transform: uppercase;
+}
+
+.product-title {
+    margin-top: 12px;
+
+    color:
+        var(--black);
+
+    font-family:
+        "Space Grotesk",
+        Inter,
+        sans-serif;
+
+    font-size:
+        clamp(1.8rem, 3vw, 2.7rem);
+
+    font-weight: 750;
+
+    line-height: 1.02;
+
+    letter-spacing: -.055em;
+}
+
+.product-description {
+    margin-top: 16px;
+
+    color:
+        var(--text-soft);
+
+    font-size: .92rem;
+
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   PRODUCT FEATURES
+========================================================= */
+
+.product-features {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 22px;
+}
+
+.product-features span {
+    display: inline-flex;
+
+    align-items: center;
+
+    min-height: 30px;
+
+    padding:
+        0 10px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        var(--radius-pill);
+
+    background:
+        var(--bg);
+
+    color:
+        var(--text-soft);
+
+    font-size: .67rem;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   PRICE
+========================================================= */
+
+.product-price {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 27px;
+}
+
+.product-price strong {
+    color:
+        var(--black);
+
+    font-family:
+        "Space Grotesk",
+        Inter,
+        sans-serif;
+
+    font-size: 2rem;
+
+    font-weight: 750;
+
+    line-height: 1;
+}
+
+.product-mrp {
+    color:
+        var(--text-muted);
+
+    font-size: .9rem;
+
+    text-decoration:
+        line-through;
+}
+
+.product-save {
+    padding:
+        6px 9px;
+
+    border-radius: 8px;
+
+    background:
+        var(--cyan-light);
+
+    color:
+        var(--cyan-dark);
+
+    font-size: .66rem;
+
+    font-weight: 800;
+}
+
+.product-extra {
+    margin-top: 8px;
+
+    color:
+        var(--cyan-dark);
+
+    font-size: .74rem;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   BUY NOW BUTTON
+========================================================= */
+
+.product-buy-btn {
+    width: 100%;
+
+    min-height: 55px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 24px;
+
+    padding:
+        0 22px;
+
+    border-radius:
+        var(--radius-pill);
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--gold),
+            #f7c95e
+        );
+
+    color:
+        var(--black);
+
+    font-size: .9rem;
+
+    font-weight: 800;
+
+    box-shadow:
+        0 12px 30px
+        rgba(244, 185, 66, .18);
+
+    transition:
+        transform .3s var(--ease),
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.product-buy-btn:hover {
+    transform:
+        translateY(-3px);
+
+    background:
+        var(--gold-dark);
+
+    color:
+        var(--white);
+
+    box-shadow:
+        0 18px 38px
+        rgba(244, 185, 66, .28);
+}
+
+.product-disclosure {
+    margin-top: 11px;
+
+    color:
+        var(--text-muted);
+
+    font-size: .62rem;
+
+    line-height: 1.5;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .product-card {
+        grid-template-columns: 1fr;
+    }
+
+    .product-image-wrap {
+        min-height: 380px;
+    }
+
+    .product-details {
+        padding: 35px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+
+    .product-section {
+        margin-top: 55px;
+    }
+
+    .product-section-heading {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+        margin-bottom: 25px;
+    }
+
+    .product-section-heading h3 {
+        font-size:
+            clamp(
+                2.7rem,
+                12vw,
+                4rem
+            );
+    }
+
+    .product-card {
+        border-radius:
+            var(--radius-lg);
+    }
+
+    .product-image-wrap {
+        min-height: 320px;
+
+        padding: 25px;
+    }
+
+    .product-image {
+        height: 270px;
+    }
+
+    .product-discount {
+        top: 18px;
+        left: 18px;
+    }
+
+    .product-details {
+        padding:
+            30px 24px 27px;
+    }
+
+    .product-title {
+        font-size: 2rem;
+    }
+
+    .product-price strong {
+        font-size: 1.8rem;
+    }
+
+    .product-buy-btn {
+        min-height: 57px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+    .product-image-wrap {
+        min-height: 285px;
+
+        padding: 20px;
+    }
+
+    .product-image {
+        height: 240px;
+    }
+
+    .product-details {
+        padding:
+            26px 20px 24px;
+    }
+
+    .product-title {
+        font-size: 1.75rem;
+    }
+
+    .product-description {
+        font-size: .88rem;
+    }
+
+    .product-features {
+        gap: 6px;
+    }
+
+    .product-features span {
+        font-size: .62rem;
+    }
+
+    .product-price {
+        gap: 8px;
+    }
+
+}
+
+/* =========================================================
+   PREMIUM PRODUCT CARD
+   ADD AT THE VERY END OF style.css
+========================================================= */
+
+.product-section {
+    width: 100%;
+    margin-top: 75px;
+}
+
+
+/* =========================================================
+   PREMIUM HEADING
+========================================================= */
+
+.product-section-heading {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .65fr);
+
+    gap: 70px;
+
+    align-items: end;
+
+    margin-bottom: 38px;
+}
+
+.product-section-heading h3 {
+    margin: 0;
+
+    font-family:
+        "Space Grotesk",
+        Inter,
+        sans-serif;
+
+    font-size:
+        clamp(3rem, 5vw, 5.2rem);
+
+    font-weight: 750;
+
+    line-height: .9;
+
+    letter-spacing: -.08em;
+
+    color: var(--black);
+}
+
+.product-section-heading h3 span {
+    color: #777;
+}
+
+.product-section-heading p {
+    margin: 0;
+
+    color: var(--text-soft);
+
+    font-size: .95rem;
+
+    line-height: 1.85;
+}
+
+
+/* =========================================================
+   PREMIUM CARD
+========================================================= */
+
+.product-card {
+    position: relative;
+
+    width: 100%;
+    min-width: 0;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.05fr)
+        minmax(0, .95fr);
+
+    overflow: hidden;
+
+    border:
+        1px solid
+        rgba(17, 17, 17, .09);
+
+    border-radius:
+        32px;
+
+    background:
+        rgba(255, 255, 255, .96);
+
+    box-shadow:
+        0 25px 70px
+        rgba(17, 17, 17, .08);
+
+    transition:
+        transform .45s var(--ease),
+        box-shadow .45s var(--ease),
+        border-color .45s ease;
+}
+
+.product-card::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    border-radius: inherit;
+
+    box-shadow:
+        inset 0 1px 0
+        rgba(255, 255, 255, .9);
+}
+
+.product-card:hover {
+    transform:
+        translateY(-8px);
+
+    border-color:
+        rgba(244, 185, 66, .35);
+
+    box-shadow:
+        0 35px 90px
+        rgba(17, 17, 17, .13);
+}
+
+
+/* =========================================================
+   PREMIUM IMAGE AREA
+========================================================= */
+
+.product-image-wrap {
+    position: relative;
+
+    width: 100%;
+    min-width: 0;
+
+    min-height: 500px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 45px;
+
+    overflow: hidden;
+
+    isolation: isolate;
+
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            rgba(244, 185, 66, .12),
+            transparent 38%
+        ),
+
+        linear-gradient(
+            145deg,
+            #f5f6f3,
+            #ffffff
+        );
+}
+
+
+/* subtle premium glow */
+
+.product-image-wrap::before {
+    content: "";
+
+    position: absolute;
+
+    width: 360px;
+    height: 360px;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background:
+        rgba(244, 185, 66, .10);
+
+    filter:
+        blur(25px);
+
+    z-index: -1;
+}
+
+
+/* decorative circle */
+
+.product-image-wrap::after {
+    content: "";
+
+    position: absolute;
+
+    width: 470px;
+    height: 470px;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    border:
+        1px solid
+        rgba(17, 17, 17, .055);
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 45px
+        rgba(17, 17, 17, .018);
+
+    z-index: -1;
+}
+
+
+/* =========================================================
+   PRODUCT IMAGE
+========================================================= */
+
+.product-image {
+    position: relative;
+
+    z-index: 3;
+
+    display: block;
+
+    width: 100%;
+    max-width: 440px;
+
+    height: 390px;
+
+    object-fit: contain;
+
+    object-position: center;
+
+    border-radius: 18px;
+
+    filter:
+        drop-shadow(
+            0 25px 28px
+            rgba(17, 17, 17, .13)
+        );
+
+    transition:
+        transform .55s var(--ease),
+        filter .55s ease;
+}
+
+.product-card:hover .product-image {
+    transform:
+        scale(1.045)
+        translateY(-4px);
+
+    filter:
+        drop-shadow(
+            0 32px 34px
+            rgba(17, 17, 17, .17)
+        );
+}
+
+
+/* =========================================================
+   PREMIUM DISCOUNT BADGE
+========================================================= */
+
+.product-discount {
+    position: absolute;
+
+    top: 25px;
+    left: 25px;
+
+    z-index: 10;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 34px;
+
+    padding:
+        0 14px;
+
+    border:
+        1px solid
+        rgba(17, 17, 17, .08);
+
+    border-radius:
+        999px;
+
+    background:
+        rgba(244, 185, 66, .95);
+
+    color:
+        var(--black);
+
+    font-size: .68rem;
+
+    font-weight: 850;
+
+    letter-spacing: .055em;
+
+    box-shadow:
+        0 8px 20px
+        rgba(244, 185, 66, .18);
+}
+
+
+/* =========================================================
+   PREMIUM DETAILS
+========================================================= */
+
+.product-details {
+    position: relative;
+
+    min-width: 0;
+
+    padding:
+        55px 48px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    background:
+        rgba(255, 255, 255, .98);
+}
+
+
+/* vertical divider */
+
+.product-details::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 45px;
+    bottom: 45px;
+
+    width: 1px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            var(--border),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   CATEGORY
+========================================================= */
+
+.product-category {
+    display: inline-block;
+
+    color:
+        var(--text-muted);
+
+    font-size: .64rem;
+
+    font-weight: 850;
+
+    letter-spacing: .18em;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.product-title {
+    margin-top: 14px;
+
+    color:
+        var(--black);
+
+    font-family:
+        "Space Grotesk",
+        Inter,
+        sans-serif;
+
+    font-size:
+        clamp(
+            2rem,
+            3.2vw,
+            3rem
+        );
+
+    font-weight: 750;
+
+    line-height: .98;
+
+    letter-spacing: -.065em;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.product-description {
+    max-width: 560px;
+
+    margin-top: 18px;
+
+    color:
+        var(--text-soft);
+
+    font-size: .9rem;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   FEATURE PILLS
+========================================================= */
+
+.product-features {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: 23px;
+}
+
+.product-features span {
+    display: inline-flex;
+
+    align-items: center;
+
+    min-height: 31px;
+
+    padding:
+        0 11px;
+
+    border:
+        1px solid
+        rgba(17, 17, 17, .08);
+
+    border-radius:
+        999px;
+
+    background:
+        #fafaf8;
+
+    color:
+        var(--text-soft);
+
+    font-size: .65rem;
+
+    font-weight: 700;
+
+    transition:
+        background .25s ease,
+        border-color .25s ease;
+}
+
+.product-features span:hover {
+    background:
+        var(--cyan-light);
+
+    border-color:
+        rgba(24, 182, 217, .3);
+}
+
+
+/* =========================================================
+   PRICE
+========================================================= */
+
+.product-price {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 11px;
+
+    margin-top: 29px;
+}
+
+.product-price strong {
+    color:
+        var(--black);
+
+    font-family:
+        "Space Grotesk",
+        Inter,
+        sans-serif;
+
+    font-size:
+        2.15rem;
+
+    font-weight: 750;
+
+    line-height: 1;
+
+    letter-spacing: -.055em;
+}
+
+.product-mrp {
+    color:
+        #8a8a8a;
+
+    font-size: .88rem;
+
+    text-decoration:
+        line-through;
+}
+
+.product-save {
+    display: inline-flex;
+
+    align-items: center;
+
+    min-height: 27px;
+
+    padding:
+        0 8px;
+
+    border-radius: 7px;
+
+    background:
+        var(--cyan-light);
+
+    color:
+        var(--cyan-dark);
+
+    font-size: .62rem;
+
+    font-weight: 850;
+}
+
+.product-extra {
+    margin-top: 8px;
+
+    color:
+        var(--cyan-dark);
+
+    font-size: .72rem;
+
+    font-weight: 750;
+}
+
+
+/* =========================================================
+   PREMIUM BUY BUTTON
+========================================================= */
+
+.product-buy-btn {
+    position: relative;
+
+    width: 100%;
+
+    min-height: 58px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 11px;
+
+    margin-top: 27px;
+
+    padding:
+        0 24px;
+
+    overflow: hidden;
+
+    border:
+        1px solid
+        rgba(17, 17, 17, .08);
+
+    border-radius:
+        999px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f4b942,
+            #ffd76f
+        );
+
+    color:
+        var(--black);
+
+    font-size: .88rem;
+
+    font-weight: 850;
+
+    box-shadow:
+        0 14px 30px
+        rgba(244, 185, 66, .20);
+
+    transition:
+        transform .35s var(--ease),
+        box-shadow .35s ease,
+        background .35s ease;
+}
+
+
+/* shine */
+
+.product-buy-btn::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -120%;
+
+    width: 70%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .42),
+            transparent
+        );
+
+    transform:
+        skewX(-20deg);
+
+    transition:
+        left .65s ease;
+}
+
+.product-buy-btn:hover::before {
+    left: 150%;
+}
+
+.product-buy-btn:hover {
+    transform:
+        translateY(-3px);
+
+    background:
+        var(--gold-dark);
+
+    color:
+        var(--white);
+
+    box-shadow:
+        0 20px 40px
+        rgba(244, 185, 66, .30);
+}
+
+
+/* =========================================================
+   DISCLOSURE
+========================================================= */
+
+.product-disclosure {
+    margin-top: 12px;
+
+    color:
+        var(--text-muted);
+
+    font-size: .61rem;
+
+    line-height: 1.5;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .product-card {
+        grid-template-columns: 1fr;
+    }
+
+    .product-image-wrap {
+        min-height: 430px;
+    }
+
+    .product-details {
+        padding:
+            42px 38px;
+    }
+
+    .product-details::before {
+        display: none;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+
+    .product-section {
+        margin-top: 55px;
+    }
+
+    .product-section-heading {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+        margin-bottom: 27px;
+    }
+
+    .product-section-heading h3 {
+        font-size:
+            clamp(
+                2.8rem,
+                12vw,
+                4.2rem
+            );
+    }
+
+    .product-card {
+        border-radius:
+            26px;
+    }
+
+    .product-image-wrap {
+        min-height: 330px;
+
+        padding: 24px;
+    }
+
+    .product-image-wrap::after {
+        width: 300px;
+        height: 300px;
+    }
+
+    .product-image {
+        height: 270px;
+
+        max-width: 330px;
+    }
+
+    .product-discount {
+        top: 18px;
+        left: 18px;
+    }
+
+    .product-details {
+        padding:
+            31px 24px 27px;
+    }
+
+    .product-title {
+        font-size:
+            2rem;
+    }
+
+    .product-price strong {
+        font-size:
+            1.9rem;
+    }
+
+    .product-buy-btn {
+        min-height:
+            58px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+    .product-image-wrap {
+        min-height: 295px;
+
+        padding: 18px;
+    }
+
+    .product-image {
+        height:380px;
+    }
+
+    .product-details {
+        padding:
+            27px 20px 24px;
+    }
+
+    .product-title {
+        font-size:
+            1.75rem;
+    }
+
+    .product-description {
+        font-size:
+            .86rem;
+    }
+
+    .product-features {
+        gap: 5px;
+    }
+
+    .product-features span {
+        font-size:
+            .61rem;
+
+        padding:
+            0 9px;
+    }
+
+}
